@@ -1,0 +1,15 @@
+freenas:
+  pool_name: "HomeLabStorage"
+  datasets:
+    - name: "Backup"
+      type: "Files"
+      permissions:
+        owner: "user"
+        group: "group"
+        mode: "775"
+    - name: "Documents"
+      type: "Files"
+      permissions:
+        owner: "user"
+        group: "group"
+        mode: "775"
